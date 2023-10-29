@@ -20,7 +20,7 @@ namespace CatalogoApi.Migrations
                 "Values('Cocada', 'Cocada 100g', 3.0, 'cocada.jpg', 5, now(),3  )");
         }
 
-        /// <inheritdoc />
+        
         protected override void Down(MigrationBuilder mb)
         {
             mb.Sql("Delete from Produto");
